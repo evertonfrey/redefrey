@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './styles.css';
+import './header.css';
 
-import logo from '../../assets/img/logotipoGrande.jpg'  //  '/home/everton/projetos/redefrey/src/assets/img/logotipoGrande.jpg'
+import logo from '../../assets/img/marca-Frey-home-2.png'; 
 
 const Header = () => (
-    <header id="main-header">Rede Frey
-     <img src={logo} alt="Logotipo"/>
+    <header id="main-header">
+     <img className='logotipo' src={logo} alt="Logotipo"/>
     </header> 
 );
 

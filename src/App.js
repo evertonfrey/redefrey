@@ -3,11 +3,15 @@ import React from 'react';
 import Header from './components/Header';
 import Carrossel from './components/Carrossel'
 import './styles.css';
+import Ofertas from './components/Ofertas';
+
+
 
 const App = () => (
    <div>
-     <Header></Header>
-     <Carrossel></Carrossel>
+     <Header/>
+     <Carrossel/>
+     <Ofertas/>
    </div>
 );
 
