@@ -1,6 +1,6 @@
 header#main-header {
     width: 100%;
-    height: 80px;
+    height: 20%;
     background: #E6282B;
     font-size: 18px;
     font-weight: bold;
@@ -11,6 +11,7 @@ header#main-header {
 }
 
 .logotipo {
-    height: 60px;
+    height: 80%;
+    width: 15%;
     margin: 10px;
 }
